@@ -2,7 +2,7 @@
 ### Bishop Swearingen
 ### Description: 
 
-The Ranking The Languages problem from UVA
+The Rank The Languages problem from UVA
 
 ### Files
 
