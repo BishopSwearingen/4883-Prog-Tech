@@ -10,7 +10,7 @@ The Rank The Languages problem from UVA
 | :---: | ---------------- | -------------------------------------------------- |
 |   1   | [main.cpp](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A08/main.cpp)         | main program     |
 |   2   | [Sample Input](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A08/input1) | input given by Online Judge         |
-|   3   | [input2](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A06/input2) | input from udebug |
+|   3   | [Udebug input](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A08/input1) | input from udebug |
 
 
 
