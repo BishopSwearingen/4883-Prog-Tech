@@ -2,7 +2,7 @@
 ### Bishop Swearingen
 ### Description: 
 
-The Hardwood Species from UVA
+The Hardwood Species problem from UVA
 
 ### Files
 
