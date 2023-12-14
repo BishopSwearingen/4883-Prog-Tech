@@ -14,7 +14,7 @@
 |   4   | [Searching for Nessy ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11044main.cpp) | Searching for Nessy Main |
 |   5   | [Jumping Mario ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11764main.cpp) | Jumping Mario Main |
 |   6   | [Egypt ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11854main.cpp) | Egypt Main |
-|   6   | [Egypt ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11854main.cpp) | Egypt Main |
+|   6   | [Horror Dash ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11799main.cpp) | Horror Dash Main |
 
 
 
