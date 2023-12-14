@@ -16,7 +16,7 @@ int cycleLength(int n) {
     }
     return length;
 }
-// Function to find the maximum cycle length for all numbers between i and j.
+// Function to find the maximum cycle length for all numbers between i and j
 int maxCycleLength(int i, int j) {
     int max_length = 0;
     for (int k = i; k <= j; k++) {
