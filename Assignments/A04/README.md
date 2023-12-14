@@ -16,6 +16,7 @@
 |   6   | [Egypt ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11854main.cpp) | Egypt Main |
 |   7   | [Horror Dash ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11799main.cpp) | Horror Dash Main |
 |   8   | [Automate the Grades ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11777main.cpp) | Automate the Grades Main |
+|   8   | [Automate the Grades ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11777main.cpp) | Automate the Grades Main |
 
 
 
