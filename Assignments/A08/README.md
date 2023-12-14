@@ -1,8 +1,8 @@
-## A08 - Rank The Languages
+## A08 - Bicoloring
 ### Bishop Swearingen
 ### Description: 
 
-The Rank The Languages problem from UVA
+The Bicoloring problem from UVA online. The program uses a BFS approach that checks if the graph can be colored only using two colors where no adjacent neighbor have the same color.
 
 ### Files
 
