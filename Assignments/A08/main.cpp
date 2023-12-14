@@ -1,67 +1,54 @@
-#include <algorithm>
+//Bishop Swearingen
+//4883
 #include <iostream>
-#include <map>
-#include <set>
 #include <vector>
+#include <queue>
+
 using namespace std;
 
-void dfs(vector<string> &grid, int x, int y, char language, int &count) {
-  int h = grid.size(), w = grid[0].size();
-  if (x < 0 || x >= h || y < 0 || y >= w || grid[x][y] != language) {
-    return;
-  }
+bool isBicolorable(int n, const vector<vector<int>>& edges) {
+    vector<int> colors(n, -1); // -1 means not colored, 0 and 1 are the two colors
+    colors[0] = 0; // Start coloring from node 0
 
-  grid[x][y] = '0'; // Mark as visited
-  count++;
+    queue<int> q;
+    q.push(0);
 
-  // Check adjacent cells
-  dfs(grid, x + 1, y, language, count);
-  dfs(grid, x - 1, y, language, count);
-  dfs(grid, x, y + 1, language, count);
-  dfs(grid, x, y - 1, language, count);
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+
+        for (int neighbor : edges[node]) {
+            if (colors[neighbor] == colors[node]) {
+                return false; // Same color neighbor found, not bicolorable
+            }
+            if (colors[neighbor] == -1) {
+                colors[neighbor] = 1 - colors[node]; // Assign opposite color
+                q.push(neighbor);
+            }
+        }
+    }
+
+    return true;
 }
 
 int main() {
-  int T;
-  cin >> T;
-  for (int t = 1; t <= T; t++) {
-    int H, W;
-    cin >> H >> W;
+    int n, l, a, b;
 
-    vector<string> grid(H);
-    for (int i = 0; i < H; i++) {
-      cin >> grid[i];
-    }
+    while (true) {
+        cin >> n;
+        if (n == 0) break;
 
-    map<char, int> languageStates;
-    set<char> languages;
+        cin >> l;
+        vector<vector<int>> edges(n);
 
-    for (int i = 0; i < H; i++) {
-      for (int j = 0; j < W; j++) {
-        if (grid[i][j] != '0') {  //0 is used to mark visited cells
-          char currentLanguage = grid[i][j];
-          languages.insert(currentLanguage);
-
-          int count = 0;
-          dfs(grid, i, j, currentLanguage, count);
-
-          if (count > 0) {
-            languageStates[currentLanguage]++;
-          }
+        for (int i = 0; i < l; ++i) {
+            cin >> a >> b;
+            edges[a].push_back(b);
+            edges[b].push_back(a);
         }
-      }
-    }
-    //Fills a vector with the languages and sorts them
-    vector<pair<int, char>> sortedLanguages;
-    for (char language : languages) {
-      sortedLanguages.push_back({-languageStates[language], language});
-    }
-    sort(sortedLanguages.begin(), sortedLanguages.end());
 
-    cout << "World #" << t << endl;
-    for (auto &lang : sortedLanguages) {
-      cout << lang.second << ": " << -lang.first << endl;
+        cout << (isBicolorable(n, edges) ? "BICOLORABLE." : "NOT BICOLORABLE.") << endl;
     }
-  }
-  return 0;
+
+    return 0;
 }
