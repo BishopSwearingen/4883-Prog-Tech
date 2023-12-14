@@ -11,6 +11,7 @@ The Bicoloring problem from UVA online. The program uses a BFS approach that che
 |   1   | [main.cpp](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A08/main.cpp)         | main program     |
 |   2   | [Sample Input](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A08/input1) | input given by Online Judge         |
 |   3   | [Udebug input](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A08/input1) | input from udebug |
+|   4   | [UVA pdf](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A09/10336.pdf) | UVA pdf |
 
 
 
