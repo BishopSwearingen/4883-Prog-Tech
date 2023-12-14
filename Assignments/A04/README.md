@@ -17,6 +17,7 @@
 |   7   | [Horror Dash ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11799main.cpp) | Horror Dash Main |
 |   8   | [Automate the Grades ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11777main.cpp) | Automate the Grades Main |
 |   9   | [Language Detection ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/12250main.cpp) | Language Detection Main |
+|   10   | [Language Detection ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/12250main.cpp) | Language Detection Main |
 
 
 
