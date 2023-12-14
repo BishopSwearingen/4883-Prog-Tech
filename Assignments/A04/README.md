@@ -12,6 +12,7 @@
 |   2   | [Tex Quotes ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/272main.cpp) | Tex Quotes Main |
 |   3   | [Peter's Smokes ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/10346main.cpp) | Peter's Smokes Main |
 |   4   | [Searching for Nessy ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11044main.cpp) | Searching for Nessy Main |
+|   5   | [Jumping Mario ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11764main.cpp) | Jumping Mario Main |
 |   4   | [Jumping Mario ](https://github.com/BishopSwearingen/4883-Prog-Tech/blob/main/Assignments/A04/11764main.cpp) | Jumping Mario Main |
 
 
