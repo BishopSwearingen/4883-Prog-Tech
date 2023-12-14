@@ -6,7 +6,7 @@
 
 using namespace std;
 
-bool isBicolorable(int n, const vector<vector<int>>& edges) {
+bool Bicolor(int n, const vector<vector<int>>& edges) {
     vector<int> colors(n, -1); // -1 means not colored, 0 and 1 are the two colors
     colors[0] = 0; // Start coloring from node 0
 
@@ -22,7 +22,7 @@ bool isBicolorable(int n, const vector<vector<int>>& edges) {
                 return false; // Same color neighbor found, not bicolorable
             }
             if (colors[neighbor] == -1) {
-                colors[neighbor] = 1 - colors[node]; // Assign opposite color
+                colors[neighbor] = 1 - colors[node]; // Sets opposite color
                 q.push(neighbor);
             }
         }
@@ -47,7 +47,7 @@ int main() {
             edges[b].push_back(a);
         }
 
-        cout << (isBicolorable(n, edges) ? "BICOLORABLE." : "NOT BICOLORABLE.") << endl;
+        cout << (Bicolor(n, edges) ? "BICOLORABLE." : "NOT BICOLORABLE.") << endl;
     }
 
     return 0;
